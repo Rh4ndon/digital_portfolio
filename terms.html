@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-0">
+        <title>Terms</title>
+        <link rel="stylesheet" href="terms.css">
+    </head>
+    <body>
+        <div class="terms-box">
+            <div class="terms-text">
+                <h2>Terms and Conditions</h2>
+                <p>Hello, Users!</p>
+                <p>Users must go through a registration process, which is a prerequisite for creating an account on our platform.</p>
+
+                <p>This important step unlocks a wide range of features and services to enhance your DigiFolio experience.
+                The emphasis is placed on the accuracy and truthfulness of the information provided during registration,
+                which ensures the integrity of user profiles. By contacting DigiFolio, users expressly acknowledge and agree
+                to the terms set forth in our User Agreement.</p>
+
+                <p>This agreement is the cornerstone of our platform and operating framework that governs the relationship between the
+                user and the service provider. The utmost importance of privacy is an integral part of the way we operate. 
+                We take the security of your personal information very seriously and take effective measures to protect it.
+                To increase transparency for users, we recommend a thorough review of our privacy policy.</p>
+
+                <p>This document provides a comprehensive overview of the methods used to collect, use, and manage your personal information.
+                Your journey with DigiFolio isn't just about using the core features; it's about building relationships based on openness,
+                trust, and commitment to shared principles.</p>
+            </div>
+            <h4>I Accept the Terms & Conditions and I Read the Privacy Policy.</h4>
+            <div class="buttons">
+                <button class="btn blue-btn" onclick="goBack()">Accept</button>
+              
+                <button class="btn white-btn" onclick="Welcome()">Decline</button>
+                <script>
+                    function Welcome() {
+                         window.location.replace("index.php");
+                    }
+                </script>
+                    <script>
+                        function goBack() {
+                            window.history.back();
+                        }
+                    </script>
+                
+            </div>
+        </div>
+    </body>
+</html>

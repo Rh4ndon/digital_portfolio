@@ -1,0 +1,4 @@
+<!-- Database connection API -->
+<?php
+$conn = mysqli_connect('localhost','id22004099_root','Digifolio_2024','id22004099_digifolio_db') or die(mysqli_error()); 
+?>
